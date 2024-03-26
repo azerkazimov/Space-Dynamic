@@ -1,0 +1,54 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.main{
+	flex: 1 1 auto;
+}
+
+#blue{
+	color: #03a4ed;
+}
+
+#red{
+	color: #fe3f40;
+}
+
+.d-flex{
+	display: flex;
+}
+
+.d-block{
+	display: block;
+}
+
+.flex-column{
+	flex-direction: column;
+}
+
+.center{
+	justify-content: center;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.space-between{
+	justify-content: space-between;
+}
+
+.align-self-center{
+	align-self: center;
+}
